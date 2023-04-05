@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoreFire</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("WdsUK7jl5FUk6Uyyu");
+  })();
+</script>
+
+
+
+
+  <div class="hero">
+    <nav>
+        <img src="images/logo.jpg" class="logo">
+        <ul>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+        </ul>
+
+    </nav>
+    <div class="detel">
+        <h1>WE'RE COMING<BR><span>SOON</span></h1>
+        <p>Hello fellow shoppers We're currently<br>
+           building our new fashion store. Add<br>
+           your email below to stay up-to-date<br>
+           with announcements and our MoreFire<br>
+           launch deals.</p>
+
+        <div class="form-group">
+            <h5 for="email"></h5>
+            <input type="email"
+             class="form-control" 
+            id="email"
+             placeholder="enter your email"/>
+       
+        </div>
+        <button class="btn btn-primary"onclick="sendMail()">Submit</button>
+    </div>
+    <div class="images">
+        <img src="images/image.jpg" alt="">
+    </div>
+
+    </div>
+  </div>  
+</body>
+</html>
